@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title> Server Architecture </title>
+
+	</head>
+
+	<body onLoad="sizeChange()">
+    <link rel='stylesheet' href='/styles/main.css'></link>
+    <script type='text/javascript' src='/js/d3.js'></script>
+    <div class="navigation">
+      <ul class="nav nav-tabs">
+        <li><a href="#" class="server-menu">Servers</a></li>
+        <li><a href="#" class="application-menu" >Apps</a></li>
+      </ul>
+
+      <div id='server-container' >
+        <div class="btn-group toggleButton">
+          <button type="button" class="btn btn-primary dropdown-toggle btn-small toggleButtonInner" data-toggle="dropdown">
+          Select a Server <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+          </ul>
+        </div>
+        <input id="search_input" class="form-control server-menu-text-box" placeholder="Filter...">
+        <ul id="search_list" class="list-group">
+        </ul>
+      </div>
+
+
+    </div>
+
+      <div id="container-container">
+        <div id='container'>
+
+        </div>
+      </div>
+
+</body>
+</html>
