@@ -26,6 +26,11 @@ body {
     color: #666;
 }
 
+.dropdown-menu{
+	height: 200px;
+	width: 300px;
+	overflow:scroll;
+}
 
 .main-content {
     float: left;

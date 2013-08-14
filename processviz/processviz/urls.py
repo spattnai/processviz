@@ -9,7 +9,7 @@ urlpatterns = patterns('',
     url(r'^index/', views.index),
 
     url(r'^api/server/process/', views.api_processes, name="processes"),
-    url(r'^api/server/process/data/$', views.api_process_data, name="process_data"),
+    url(r'^api/process/data/$', views.api_process_data, name="process_data"),
     url(r'^api/server/$', views.api_servers, name = "servers"),
     url(r'^api/alert-histories/$',views.api_alert_histories,name="alert_histories"),
     # Examples:

@@ -1,3 +1,4 @@
+
 nv.models.stackedArea = function() {
 
   //============================================================
@@ -41,6 +42,77 @@ nv.models.stackedArea = function() {
 
   //============================================================
 
+    var StackedChart={};
+    function initializevars(){
+        console.log("vars Initializing");
+         StackedChart = {
+        alerthistories:[],
+        serverID:0,
+        processes:[],
+        nickname:[],
+        alertsubject:[],
+        processdata:[]
+
+    };
+        getProcessData();
+
+}
+
+function getProcessData(server){
+    $.ajax({
+	type: "GET",
+	url: "/main/api/process/data",
+	data: {'id': server.id},
+	dataType: "json",
+	success: function(data)  {
+	    var json_data = eval(data);
+	    HiveplotVars.serverproc[0] = (json_data);
+	    console.log("server process Data success");
+	   // appendDataToDrillDownMenu();
+	    getProcessDetail();
+
+	},
+	error:function(jqXHR, textStatus, errorThrown){
+
+	}
+    });
+
+    function getAlertHistories(alert){
+    $.ajax({
+	type: "GET",
+	url: "/hiveplot/api/server/process/data",
+	data: {'subject': alert.subject},
+
+	dataType: "json",
+	success: function(data)  {
+	    var json_data = eval(data);
+	    StackedChart.alerthistories[0] = (json_data);
+	    console.log(" Alert Data success");
+
+	    getProcessData();
+
+	},
+	error:function(jqXHR, textStatus, errorThrown){
+
+	}
+    });
+}
+
+
+}
+    function search_Process(){
+
+        var search = [$('.search_bar').val()];
+        d3.selectAll('.data-row')
+            .transition()
+            .style('background-color',
+                function(){if ($(this).get(0)
+                    .text.indexOf(search) !== -1){return 'black';}
+                    return 'white';
+})
+
+
+}
 
   function chart(selection) {
     selection.each(function(data) {
@@ -304,22 +376,13 @@ nv.models.stackedArea = function() {
         chart.offset('zero');
         chart.order('default');
         break;
-      case 'stream':
-        chart.offset('wiggle');
-        chart.order('inside-out');
-        break;
-      case 'stream-center':
-          chart.offset('silhouette');
-          chart.order('inside-out');
-          break;
-      case 'expand':
-        chart.offset('expand');
-        chart.order('default');
-        break;
+
     }
 
     return chart;
   };
+
+
 
   chart.interpolate = function(_) {
 	    if (!arguments.length) return interpolate;

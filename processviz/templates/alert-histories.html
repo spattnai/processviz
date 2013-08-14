@@ -1,0 +1,36 @@
+<div id="nav_{{nav.id}}" class="alert-histories">
+    <div class="overlay"><div class="message">Loading...</div></div>
+    <ul>
+        <li>
+            <div>
+                <div class="title"></div>
+                <div class="icon-setting" data-id="{{nav.id}}"></div>
+            </div>
+        </li>
+
+        <li class="bar-chart" style='clear:both;'>
+            <div class="value"></div>
+            <div id="widget_{{widget.id}}_chart" class="chart-container"></div>
+        </li>
+
+        <li class="meta-data">
+            <span class="label">Time Scale</span>
+            <span class="data time-scale"></span>
+        </li>
+
+        <li class="meta-data">
+            <span class="label info"></span>
+        </li>
+
+        <li class="meta-data">
+            <span class="label time-stamp"></span>
+        </li>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var jsonData = JSON.parse(JSON.stringify({% autoescape off %}{{widget}}{% endautoescape %}));
+        $("#nav_{{nav.id}}{{nav.id}}").data("widget", jsonData);
+    });
+</script>

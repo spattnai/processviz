@@ -12,6 +12,13 @@
     <file path="/index.html" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376486400858" ignored="false" />
     <file path="/stackedArea.html" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376490570395" ignored="false" />
     <file path="/base.css" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376493323241" ignored="false" />
+    <file path="/stackedArea.js" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376499149645" ignored="false" />
+    <file path="$PROJECT_DIR$/../app/static/plastique_files/eg1.html" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376500648211" ignored="false" />
+    <file path="/eg1.html" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376498052821" ignored="false" />
+    <file path="/processviz.js" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376498606093" ignored="false" />
+    <file path="/api-sqlite.py" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376502285716" ignored="false" />
+    <file path="/alert-histories.html" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376503937962" ignored="false" />
+    <file path="/process.js" changelist="b7205a89-cae7-4c6a-bf12-11523edd9f73" time="1376505390579" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +41,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processviz/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="78" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+            <state line="14" column="15" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,19 +56,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/static/css/base.css">
+      <file leaf-file-name="alert-histories.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/alert-histories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.033333335">
+            <state line="33" column="36" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1376503954505" expanded="true" signature="1026:1034" placeholder="{...}" />
+                <marker date="1376503954505" expanded="true" signature="1036:1044" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/static/js/process.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="302" column="17" selection-start="11298" selection-end="11298" vertical-scroll-proportion="0.036480688">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="jquery-1.10.1.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/static/js/jquery-1.10.1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="18" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +89,16 @@
       <file leaf-file-name="stackedArea.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/static/js/stackedArea.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="334" column="1" selection-start="10341" selection-end="10341" vertical-scroll-proportion="0.0">
+            <state line="94" column="10" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="processviz.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/static/js/processviz.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,14 +139,19 @@
         <option value="$PROJECT_DIR$/main/models.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/processviz/urls.py" />
+        <option value="$PROJECT_DIR$/main/static/js/processviz.js" />
+        <option value="$PROJECT_DIR$/main/static/js/stackedArea.js" />
         <option value="$PROJECT_DIR$/main/static/css/base.css" />
+        <option value="$PROJECT_DIR$/main/api-sqlite.py" />
+        <option value="$PROJECT_DIR$/main/static/js/fastlivefilter.js" />
+        <option value="$PROJECT_DIR$/templates/alert-histories.html" />
+        <option value="$PROJECT_DIR$/main/static/js/process.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="704" />
-    <option name="y" value="7" />
-    <option name="width" value="681" />
+    <option name="y" value="8" />
+    <option name="width" value="641" />
     <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -224,6 +257,10 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -276,7 +313,43 @@
       <recent name="C:\Users\dell\PycharmProjects\processviz\main\static\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Django server.processviz">
+  <component name="RunManager" selected="Python.api-sqlite">
+    <configuration default="false" name="api-sqlite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="processviz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/api-sqlite.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="processviz" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,9 +448,15 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Django server.processviz" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.api-sqlite" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.processviz" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.api-sqlite" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -406,23 +485,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="7" width="681" height="727" extended-state="0" />
+    <frame x="0" y="8" width="641" height="727" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3473344" sideWeight="0.67017543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42487046" sideWeight="0.67077464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -489,69 +568,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/processviz/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processviz/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.21657251" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="18" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/stackedArea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="334" column="1" selection-start="10341" selection-end="10341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/nv.d3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-24.754274" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/d3.v3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/nv.d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/js/tooltip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/js/highcharts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="26" selection-start="69781" selection-end="69781" vertical-scroll-proportion="8.317857" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/stackedArea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="35" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/models.py">
@@ -564,10 +583,68 @@
         <state line="72" column="0" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.1521739" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processviz/urls.py">
+    <entry file="file://$PROJECT_DIR$/main/static/js/jquery.ui.core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="78" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/jquery-1.10.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/stackedArea.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="35" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/processviz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/stackedArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="10" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="18" selection-start="636" selection-end="636" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.66324437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/fastlivefilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="1938" selection-end="1938" vertical-scroll-proportion="0.9549356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/tooltip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/alert-histories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="36" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1376503954505" expanded="true" signature="1026:1034" placeholder="{...}" />
+            <marker date="1376503954505" expanded="true" signature="1036:1044" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +655,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/base.css">
+    <entry file="file://$PROJECT_DIR$/processviz/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.033333335">
+        <state line="14" column="15" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/js/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="17" selection-start="11298" selection-end="11298" vertical-scroll-proportion="0.036480688">
           <folding />
         </state>
       </provider>
